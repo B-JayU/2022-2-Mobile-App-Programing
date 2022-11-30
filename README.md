@@ -13,6 +13,16 @@
     <td> androidx 라이브러리와 appcompat 라이브러리 이해하기 </td>
   </tr>
   <tr>
+    <td> Chapter 07 </td>
+    <td> 
+      <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/63b726e801297839029d0a9599d79c79697cbe61/CH07_Layout/%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83.md">레이아웃 다루기
+    </td>
+    <td> 뷰를 배치하는 레이아웃 이해하기 </td>
+  </tr>
+  
+  https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/63b726e801297839029d0a9599d79c79697cbe61/CH07_Layout/%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83.md
+  
+  <tr>
     <td> Chapter 11 </td>
     <td> 
       <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/2edef26ae8743e9fa040488edede3804717c08b3/CH11_%EC%A0%9C%ED%8A%B8%ED%8C%A9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/(1)%20Androidx%EC%99%80%20appcompat%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%EC%9D%B4%ED%95%B4.md">제트팩 라이브러리
