@@ -26,6 +26,13 @@
     </td>
     <td> androidx 라이브러리와 appcompat 라이브러리 이해하기 </td>
   </tr>
+  <tr>
+    <td> Chapter 11 </td>
+    <td> 
+      <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/d5aa498026f40bccf7c62c843aadd4d922aad5bf/CH11_%EC%A0%9C%ED%8A%B8%ED%8C%A9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/(2)%20%ED%94%84%EB%9E%98%EA%B7%B8%EB%A8%BC%ED%8A%B8%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md">제트팩 라이브러리
+    </td>
+    <td> Fragment 이해하기 </td>
+  </tr>
 </table>
 
 
