@@ -46,6 +46,14 @@
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/fa31cc95707c6ded8e2b57f4335c0b69135a3b55/CH11_%EC%A0%9C%ED%8A%B8%ED%8C%A9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/(3)%20%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4%EB%9F%AC%20%EB%B7%B0%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md">RecyclerView 이해하기 </td>
     <td>리사이클러 뷰 동적제거</td>
   </tr>
+  <tr>
+    <td> Chapter 11 </td>
+    <td> 
+      제트팩 라이브러리
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/fa31cc95707c6ded8e2b57f4335c0b69135a3b55/CH11_%EC%A0%9C%ED%8A%B8%ED%8C%A9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/(3)%20%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4%EB%9F%AC%20%EB%B7%B0%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md">뷰 페이저2와 드로어레이아웃 이해하기</td>
+    <td></td>
+  </tr>
 </table>
 
 
