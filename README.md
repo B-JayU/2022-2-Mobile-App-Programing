@@ -19,9 +19,6 @@
     </td>
     <td> 뷰를 배치하는 레이아웃 이해하기 </td>
   </tr>
-  
-  https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/63b726e801297839029d0a9599d79c79697cbe61/CH07_Layout/%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83.md
-  
   <tr>
     <td> Chapter 11 </td>
     <td> 
