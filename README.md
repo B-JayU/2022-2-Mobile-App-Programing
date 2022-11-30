@@ -10,7 +10,7 @@
     <td> 
       <a href="https://github.com/B-JayU/2022-2-Mobile-App-     Programing/blob/main/CH06_View/%EB%B7%B0%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%99%94%EB%A9%B4%EA%B5%AC%EC%84%B1.md">View 다루기
     </td>
-    <td> androidx 라이브러리와 appcompat 라이브러리 이해하기 </td>
+    <td> 뷰를 이용한 화면 구성 </td>
   </tr>
   <tr>
     <td> Chapter 07 </td>
