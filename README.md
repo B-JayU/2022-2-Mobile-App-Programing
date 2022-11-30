@@ -5,6 +5,7 @@
   <th> No.Chapter </th>
   <th> Contents </th>
   <th> Goal </th>
+  <th> More </th>
   <tr>
     <td> Chapter 06 </td>
     <td> 
