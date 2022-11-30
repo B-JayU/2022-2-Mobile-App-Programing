@@ -1,14 +1,18 @@
 # 2022-2-Mobile-App-Programing
-나도 개발할 수 있어
+![header](https://capsule-render.vercel.app/api?type=Rounded&color=gradient&height=100&section=footer&text=Mobile%20App%20Programming&fontSize=30)
 
 <table>
-  <th> Index </th>
+  <th> No.Chapter </th>
   <th> Contents </th>
+  <th> Goal </th>
   <tr>
-    <td> 01 </td>
-    <td> Create Repository </td>
+    <td> Chapter 11 </td>
+    <td> 
+      제트팩 라이브러리 
+      <href="">
+    </td>
+    <td> androidx 라이브러리와 appcompat 라이브러리 이해하기 </td>
   </tr>
-  
-  
-    
 </table>
+
+
