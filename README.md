@@ -51,7 +51,7 @@
     <td> 
       제트팩 라이브러리
     </td>
-    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/fa31cc95707c6ded8e2b57f4335c0b69135a3b55/CH11_%EC%A0%9C%ED%8A%B8%ED%8C%A9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/(3)%20%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4%EB%9F%AC%20%EB%B7%B0%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md">뷰 페이저2와 드로어레이아웃 이해하기</td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/2d8f9e6bd9c6221f34364ac503564aa087e154e1/CH11_%EC%A0%9C%ED%8A%B8%ED%8C%A9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/(4)%20%EB%B7%B0%ED%8E%98%EC%9D%B4%EC%A0%802%EC%99%80%20%EB%93%9C%EB%A1%9C%EC%96%B4%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md">뷰 페이저2와 드로어레이아웃 이해하기</td>
     <td></td>
   </tr>
 </table>
