@@ -1,0 +1,272 @@
+[06-1. 화면 구성](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+
+[06-2. 뷰 클래스](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+
+1. [뷰 클래스의 기본 구조](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+2. [레이아웃 중첩](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+3. [레이아웃 뷰를 액티비티에서 사용하기 ⇒ findViewById](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+4. [뷰의 간격 설정(margin과 padding)](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+5. [뷰의 표시여부 설정(visibility)](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+
+[06-3. 기본적인 뷰 살펴보기](https://www.notion.so/Study-06-2f29468482ed4f11bf2fb6c9bca00663)
+
+- ref. appcompat 에서 기본 뷰 제공
+
+[06-4. [실습] 카카오톡 비밀번호 확인 화면 만들기(레이아웃만)](https://www.notion.so/df540bcf88074c82a56b7149c2b6467e)
+
+### 06-1. 화면을 구성하는 방법
+
+**방법1. Activity - view 구조**
+
+- 화면을 구성하는 것은 액티비티 이지만, 화면의 내용을 출력하기 위해서는 뷰를 이용
+- 화면을 구성하는 뷰 클래스를 액티비티 코드에 직접 생성
+    
+    
+    ```python
+    var binding = ActivityMainBinding.inflate(layoutInflater)
+            setContentView(binding.root)
+    
+            val name = TextView(this).apply {
+                typeface = Typeface.DEFAULT_BOLD
+                text = "Lake Louise"
+            }
+    
+            val image = ImageView(this).also {
+                it.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.lake_1))
+            }
+    
+            val address = TextView(this).apply {
+                typeface = Typeface.DEFAULT_BOLD
+                text = "Lake Louise, AB, 캐나다"
+            }
+    
+            val layout = LinearLayout(this).apply {
+                orientation = LinearLayout.VERTICAL
+                gravity = Gravity.CENTER
+    
+                addView(name, WRAP_CONTENT, WRAP_CONTENT)
+                addView(image, WRAP_CONTENT, WRAP_CONTENT)
+                addView(address, WRAP_CONTENT, WRAP_CONTENT)
+            }
+    
+            setContentView(layout)
+    ```
+    
+- 레이아웃 XML로 화면 구성하기
+    
+    ```python
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Lake Louise"/>
+    
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lake_1"/>
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Lake Louise, AB, 캐나다"/>
+    </LinearLayout>
+    ```
+    
+
+### 06-2. 뷰 클래스
+
+**뷰 클래스의 기본 구조**
+
+- ViewGroup : 자체 UI 없이 다른 뷰를 여러 개 묶어서 제어할 목적으로 사용
+- Layout 클래스는 ViewGroup 클래스의 하위 클래스
+
+**레이아웃의 중첩** 
+
+- 레이아웃 객체를 중첩해서 복잡하게 구성할 수 있다
+- 레이아웃 중첩 예제
+    
+    ```python
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="BUTTON1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="BUTTON2"/>
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+    
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:text="BUTTON3"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:text="BUTTON4"/>
+            </LinearLayout>
+    
+        </LinearLayout>
+    ```
+    
+  
+    
+
+**레이아웃 XML의 뷰를 Activity 코드에서 사용하기**
+
+- xml 객체를 식별하기 위한 식별자 값이 필요 ⇒ 속성 id가 필요
+- xml에 id 속성을 추가하면, 자동으로 [R.java](http://R.java) 파일에 상수 변수로 추가
+- **findViewById()** 함수로 객체 획득 가능
+- viewBinding 이용하기
+    - Gradle에서 view binding을 enabled=true로 설정했을 시, viewbinding 객체의 member 변수를 이용하여 객체를 접근할 수 있다.
+
+**뷰의 간격 설정**
+
+- margin, padding 속성을 이용하면, 상하좌우 간격 네 방향 모두 같은 크기로 설정
+- 특정한 방향으로 간격 설정시, marginLeft, marginRight, marginTop, marginBottom, paddingLeft, paddingRight, paddingTop, paddingBottom 등으로 설정가능
+- margin : 뷰와 뷰 사이의 간격
+- padding : 뷰 테두리와 컨텐츠 사이의 간격
+- margin, padding 적용 예제
+    
+    ```
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON1"
+        android:backgroundTint="#0000ff"
+        android:padding="30dp"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:background="#ff0000"
+        android:paddingBottom="50dp"
+        android:layout_marginLeft="50dp"/>
+    ```
+    
+    ![스크린샷 2022-11-27 11.56.20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0bc35a6-efe9-4282-8140-82e395aaed9a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-11-27_11.56.20.png)
+    
+
+**뷰의 표시 여부 결정**
+
+- xml에서 뷰의 표시 여부 결정
+
+```python
+<... 
+	android:visibility = visible
+	# android: visibility = invisible 
+/>
+```
+
+- activity 코드에서 뷰의 표시 여부 결정
+
+```python
+val visibleBtn: Button = findViewById(R.id.visibleBtn)
+val invisibleBtn: Button = findViewById(R.id.invisibleBtn)
+val targetView: TextView = findViewById(R.id.targetView)
+
+visibleBtn.setOnClickListener {
+	targetView.visibility = View.VISIBLE
+}
+
+invisibleBtn.setOnClickListener {
+	targetView.visibility = View.INVISIBLE
+}
+```
+
+### 06-3. 기본적인 뷰 살펴보기
+
+- **TextView : 문자열을 화면에 출력하는 뷰**
+    - android:text
+    - android:textColor
+    - android:textSize
+    - android:textStyle
+    - android:autoLink
+        - 전화번호, 이메일, web 문자열 형태에 자동으로 링크를 추가해줌
+        
+        ```python
+        <TextView
+        	...
+        	android:autoLink = "web|email|phone"
+        ```
+        
+    - android:maxLines:
+        - 문자열이 특정 줄까지만 나오도록 하는 속성
+    - android:ellipsize
+        - 문자열이 더 있다는 것을 표시하기 위한 줄임표(...)를 추가
+        - start, middle, end 값 지정가능
+        
+- **ImageView : 이미지를 화면에 출력하는 뷰**
+    - android:src 속성 : 출력할 이미지를 설정
+        - android:src=”@drawable/test”
+        - android:maxWidth, android:maxHeight, android:adjustViewBounds 속성
+            - 이미지의 최대 크기를 지정
+            - maxWidth, maxHeight 속성은 android:adjustViewBounds 속성과 함께 사용
+                - true로 설정하면 이미지의 가로세로 길이와 비례해 뷰의 크기를 맞춤
+                
+- **버튼, 체크박스, 라디오버튼**
+    - Button은 사용자 이벤트를 처리
+        - CheckBox는 다중 선택을, RadioButton은 단일 선택을 제공하는 뷰
+        - 라디오 버튼은 RadioGroup과 함께 사용하며 그룹으로 묶어 버튼 중 하나만 선택할 수 있게 설정
+        
+- **EditText : 글을 입력할수 있는 뷰**
+    - android:lines, android:maxLines 속성
+    - android:lines 은 처음부터 여러 줄 입력 크기로 나오게 함
+    - android:maxLines 은 처음에는 한 줄 입력 크기로 출력되다 지정한 크기까지 늘어남
+    
+    - android:inputType 속성
+        - 글을 입력할 때 올라오는 키보드를 지정하는 속성
+            
+### 06-4. 뷰 바인딩
+
+- 레이아웃 xml 파일에 선언한 뷰 객체를 코드에서 쉽게 이용하는 방법
+- 액티비티에서 findViewById() 함수를 이용하지 않고 레이아웃 xml 파일에 등록된 뷰 객체를 쉽게 사용할 수 있는 방법
+    
+    
+- 레이아웃 xml 파일에 등록된 뷰 객체를 포함하는 클래스가 자동으로 만들어진다
+- 자동으로 만들어지는 클래스의 이름은 레이아웃 XML 파일명을 따른다
+    - activity_main.xml → ActivityMainBinding
+    - item_main.xml → ItemMainBinding
+- 자동으로 만들어진 클래스의 inflate() 함수를 호출하면 바인딩 객체를 얻을 수 있다
+- 액티비티 화면 출력은 setContentView() 함수에 binding.root를 전달하면 됨
+
+```python
+val binding = ActivityMainBinding.inflate(layoutInflater)
+
+setContentView(binding.root)
+
+binding.visibleBtn.setOnclickListener {
+	binding.targetView.visibility = view.VISIBLE
+}
+```
+
+### Do it! 실습 - 카카오톡 비밀번호 확인 화면 만들기
+
+[카카오톡 비밀번호 확인 화면 만들기](https://www.notion.so/df540bcf88074c82a56b7149c2b6467e)
