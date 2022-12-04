@@ -7,6 +7,31 @@
   <th> Goal </th>
   <th> More </th>
   <tr>
+    <td> Chapter 03 </td>
+    <td> 
+        코틀린 시작하기
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/afab8bc8c9d30f8cf3e7a65afc57be71ec014408/Kotlin%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A9%E1%86%AB/ch03.%20%E1%84%8F%E1%85%A9%E1%84%90%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.pdf">코틀린 기본 문법 익히기 </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> Chapter 04 </td>
+    <td> 
+      코틀린의 객체 지향 프로그래밍
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/afab8bc8c9d30f8cf3e7a65afc57be71ec014408/Kotlin%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A9%E1%86%AB/ch04.%20%E1%84%8F%E1%85%A9%E1%84%90%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%AB%20%E1%84%80%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A6%E1%84%8C%E1%85%B5%E1%84%92%E1%85%A3%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%84%86%E1%85%B5%E1%86%BC.pdf">코틀린 객체 지향 개념 익히기</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> Chapter 05 </td>
+    <td> 
+      코틀린의 유용한 기법
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/afab8bc8c9d30f8cf3e7a65afc57be71ec014408/Kotlin%20%E1%84%86%E1%85%AE%E1%86%AB%E1%84%87%E1%85%A5%E1%86%B8%20%E1%84%8B%E1%85%B5%E1%84%85%E1%85%A9%E1%86%AB/ch05.%20%E1%84%8F%E1%85%A9%E1%84%90%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B2%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8.pdf
+">람다함수와 널 안정성 개념 익히기</td>
+    <td></td>
+  </tr>
+  <tr>
     <td> Chapter 06 </td>
     <td> 
       View 다루기
