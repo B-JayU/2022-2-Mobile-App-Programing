@@ -103,5 +103,13 @@
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/78e63dc9fe397454a1429fe659d11df6de102d9a/CH13_%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20ANR%20%EB%AC%B8%EC%A0%9C%EC%99%80%20%EC%BD%94%EB%A3%A8%ED%8B%B4.md">액티비티 ANR문제와 코루틴</td>
     <td> </td>
   </tr>
+  <tr>
+    <td> Chapter 19 </td>
+    <td> 
+      위치 정보 활용하기
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/212f75aaf42eb2a636512886ce43e584657de1a0/CH13_%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md">사용자 위치와 구글 지도</td>
+    <td> 구글 지도 앱 만들기 실습 </td>
+  </tr>
 </table>
 
