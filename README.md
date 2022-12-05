@@ -95,7 +95,13 @@
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/6e116099391c0235fd2b7ece9fd128cde0fa3e29/CH13_%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%EC%99%80%20%EC%A0%9C%EC%96%B4.md">액티비티 생명주기와 제어</td>
     <td> </td>
   </tr>
+  <tr>
+    <td> Chapter 13 </td>
+    <td> 
+      액티비티 컴포넌트
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/78e63dc9fe397454a1429fe659d11df6de102d9a/CH13_%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20ANR%20%EB%AC%B8%EC%A0%9C%EC%99%80%20%EC%BD%94%EB%A3%A8%ED%8B%B4.md">액티비티 ANR문제와 코루틴</td>
+    <td> </td>
+  </tr>
 </table>
-
-
 
