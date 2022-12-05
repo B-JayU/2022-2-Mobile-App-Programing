@@ -85,7 +85,7 @@
       액티비티 컴포넌트
     </td>
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/eb719f7d48fab783697186ad6848bd36b22723a5/CH13_%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/%EC%9D%B8%ED%85%90%ED%8A%B8%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0(1).md">인텐트 이해하기(1)</td>
-    <td>액티비티 화면 되돌리기 startActivityForResult</td>
+    <td> </td>
   </tr>
 </table>
 
