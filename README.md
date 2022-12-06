@@ -64,6 +64,14 @@
     <td> 메신저 앱의 인트로 화면 만들기 </td>
   </tr>
   <tr>
+    <td> Chapter 09 </td>
+    <td> 
+      리소스 활용하기
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/tree/main/CH09_%EB%A6%AC%EC%86%8C%EC%8A%A4%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0/%E1%84%86%E1%85%A6%E1%84%89%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%A5%20%E1%84%8B%E1%85%A2%E1%86%B8%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB"> 메신저 앱의 인트로 화면 만들기 </td>
+    <td> </td>
+  </tr>
+  <tr>
     <td> Chapter 11 </td>
     <td> 
       제트팩 라이브러리
