@@ -55,9 +55,14 @@
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/0921dc44c0fb97e574474975eedfba333a887ecd/CH08_%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%9D%B4%EB%B2%A4%ED%8A%B8.md"> 사용자 이벤트 처리하기 </td>
     <td></td>
   </tr>
-  
-  
-  
+  <tr>
+    <td> Chapter 09 </td>
+    <td> 
+      리소스 활용하기
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/633b19d24250387b94fbcdec9619c9f42d817bf8/CH09_%EB%A6%AC%EC%86%8C%EC%8A%A4%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0/%EB%A6%AC%EC%86%8C%EC%8A%A4%20%ED%99%9C%EC%9A%A9.md"> 리소스 활용 </td>
+    <td> 메신저 앱의 인트로 화면 만들기 </td>
+  </tr>
   <tr>
     <td> Chapter 11 </td>
     <td> 
