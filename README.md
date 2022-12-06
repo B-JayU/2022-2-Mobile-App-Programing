@@ -109,7 +109,16 @@
       위치 정보 활용하기
     </td>
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/212f75aaf42eb2a636512886ce43e584657de1a0/CH13_%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md">사용자 위치와 구글 지도</td>
-    <td> 구글 지도 앱 만들기 실습 </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td> Chapter 19 </td>
+    <td> 
+      위치 정보 활용하기
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/tree/main/CH19_%E1%84%8B%E1%85%B1%E1%84%8E%E1%85%B5%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5"> 구글 지도 앱 만들기 </td>
+    <td> duplicated class 문제 해결하기 </td>
   </tr>
 </table>
+
 
