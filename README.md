@@ -48,6 +48,17 @@
     <td></td>
   </tr>
   <tr>
+    <td> Chapter 08 </td>
+    <td> 
+      사용자 이벤트 처리하기
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/0921dc44c0fb97e574474975eedfba333a887ecd/CH08_%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%9D%B4%EB%B2%A4%ED%8A%B8.md"> 사용자 이벤트 처리하기 </td>
+    <td></td>
+  </tr>
+  
+  
+  
+  <tr>
     <td> Chapter 11 </td>
     <td> 
       제트팩 라이브러리
