@@ -72,6 +72,22 @@
     <td> </td>
   </tr>
   <tr>
+    <td> Chapter 10 </td>
+    <td> 
+      다이얼로그와 알림 이용하기
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/485d9b7ea72565699de761242295ef605a492dd7/CH10_%EB%8B%A4%EC%9D%B4%EC%96%BC%EB%A1%9C%EA%B7%B8%EC%99%80%20%EC%95%8C%EB%A6%BC%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0/%EB%8B%A4%EC%9D%B4%EC%96%BC%EB%A1%9C%EA%B7%B8%EC%99%80%20%EC%95%8C%EB%A6%BC.md"> 다이얼로그와 알림 </td>
+    <td> 카카오톡 알림 만들기 </td>
+  </tr>
+  <tr>
+    <td> Chapter 10 </td>
+    <td> 
+      ch10_Do it 실습!
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/tree/main/CH10_%EB%8B%A4%EC%9D%B4%EC%96%BC%EB%A1%9C%EA%B7%B8%EC%99%80%20%EC%95%8C%EB%A6%BC%20%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0/%E1%84%8F%E1%85%A1%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%85%E1%85%B5%E1%86%B7%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5"> 카카오톡 알림 만들기 </td>
+    <td> </td>
+  </tr>
+  <tr>
     <td> Chapter 11 </td>
     <td> 
       제트팩 라이브러리
