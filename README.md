@@ -36,7 +36,15 @@
     <td> 
       View 다루기
     </td>
-    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-     Programing/blob/main/CH06_View/%EB%B7%B0%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%99%94%EB%A9%B4%EA%B5%AC%EC%84%B1.md">뷰를 이용한 화면 구성 </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/a95bab3486b9445b4068d3ea7d0524e6a72226cf/CH06_View/%EB%B7%B0%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%99%94%EB%A9%B4%EA%B5%AC%EC%84%B1.md">뷰를 이용한 화면 구성 </td>
+    <td> 카카오톡 비밀번호 확인 화면 만들기 </td>
+  </tr>
+  <tr>
+    <td> Chapter 06 </td>
+    <td> 
+      ch06_Do it 실습!
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/tree/main/CH06_View/kakao_password">카카오톡 비밀번호 확인 화면 만들기 </td>
     <td></td>
   </tr>
   <tr>
@@ -45,6 +53,14 @@
       레이아웃 다루기
     </td>
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/63b726e801297839029d0a9599d79c79697cbe61/CH07_Layout/%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83.md">뷰를 배치하는 레이아웃 이해하기 </td>
+    <td> 전화 키패드 만들기 </td>
+  </tr>
+  <tr>
+    <td> Chapter 07 </td>
+    <td> 
+      ch07_Do it 실습!
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/tree/main/CH07_Layout/%EC%A0%84%ED%99%94%20%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0">전화 키패드 만들기 </td>
     <td></td>
   </tr>
   <tr>
@@ -53,8 +69,16 @@
       사용자 이벤트 처리하기
     </td>
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/0921dc44c0fb97e574474975eedfba333a887ecd/CH08_%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0/%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%9D%B4%EB%B2%A4%ED%8A%B8.md"> 사용자 이벤트 처리하기 </td>
-    <td></td>
+    <td> 시계 앱의 스톱워치 기능 만들기 </td>
   </tr>
+  <tr>
+    <td> Chapter 08 </td>
+    <td> 
+      ch08_Do it 실습!
+    </td>
+    <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/tree/main/CH08_%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0/%E1%84%89%E1%85%B5%E1%84%80%E1%85%A8%20%E1%84%8B%E1%85%A2%E1%86%B8%E1%84%8B%E1%85%B4%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%86%B8%E1%84%8B%E1%85%AF%E1%84%8E%E1%85%B5%20%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5"> 시계 앱의 스톱워치 기능 만들기 </td>
+    <td></td>
+  </tr> 
   <tr>
     <td> Chapter 09 </td>
     <td> 
@@ -149,7 +173,7 @@
       위치 정보 활용하기
     </td>
     <td> <a href="https://github.com/B-JayU/2022-2-Mobile-App-Programing/blob/212f75aaf42eb2a636512886ce43e584657de1a0/CH13_%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/%EC%9C%84%EC%B9%98%20%EC%A0%95%EB%B3%B4%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md">사용자 위치와 구글 지도</td>
-    <td>  </td>
+    <td> 구글 지도 앱 만들기 </td>
   </tr>
   <tr>
     <td> Chapter 19 </td>
